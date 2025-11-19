@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WiFi-Net Isolir Error Page
 
-## Getting Started
+Halaman error custom untuk sistem isolir WiFi-Net.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**URL:** [https://USERNAME.github.io/REPO-NAME/isolir-error-page.html](https://USERNAME.github.io/REPO-NAME/isolir-error-page.html)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*(Ganti USERNAME dan REPO-NAME sesuai repo GitHub lu)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📋 Description
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Error page yang ditampilkan kepada client yang terisolir (internet diblokir karena tagihan belum dibayar).
 
-## Learn More
+### Features:
+- ⚠️ Tampilan modern & responsive
+- 📱 Mobile-friendly
+- 🎨 Gradient background yang menarik
+- ℹ️ Informasi jelas tentang:
+  - Akses internet terbatas
+  - Alasan (tagihan belum dibayar)
+  - Cara untuk mengaktifkan kembali
+  - Kontak admin
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Untuk menggunakan error page ini di sistem WiFi-Net:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Set environment variable** di `backend/.env`:
+   ```env
+   ISOLIR_ERROR_PAGE_URL=https://USERNAME.github.io/REPO-NAME/isolir-error-page.html
+   ```
 
-## Deploy on Vercel
+2. **Restart backend**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Setup isolir** via dashboard
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Done!** Client terisolir akan diarahkan ke halaman ini.
+
+## 📝 Customization
+
+Untuk customize error page:
+1. Edit `isolir-error-page.html`
+2. Commit & push ke GitHub
+3. GitHub Pages akan auto-update (tunggu ~1 menit)
+4. Client terisolir langsung dapat tampilan baru!
+
+## 🔧 Development
+
+File asli ada di: `backend/public/isolir-error-page.html`
+
+## 📚 Documentation
+
+- [Setup Guide](https://github.com/USERNAME/REPO-NAME)
+- [WiFi-Net System Docs](https://github.com/USERNAME/wifi-net)
+
+---
+
+**Built with ❤️ for WiFi-Net RT-RW System**

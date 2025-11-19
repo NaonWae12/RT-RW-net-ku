@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Internet Terbatas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .alert-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .alert-box h2 {
+            color: #856404;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .alert-box p {
+            color: #856404;
+            margin: 0;
+        }
+        .info-list {
+            text-align: left;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info-list li {
+            color: #495057;
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .info-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .contact-info {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 25px;
+            text-align: left;
+        }
+        .contact-info strong {
+            color: #1976d2;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #999;
+            font-size: 14px;
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .icon {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">⚠️</div>
+        <h1>Akses Internet Terbatas</h1>
+        <p>Koneksi internet Anda saat ini <strong>tidak dapat digunakan</strong> untuk mengakses website atau layanan online.</p>
+        
+        <div class="alert-box">
+            <h2>⏰ Tagihan Belum Dibayar</h2>
+            <p>Akses internet Anda dibatasi karena pembayaran tagihan bulanan belum diterima.</p>
+        </div>
+
+        <div class="info-list">
+            <strong>Untuk mengaktifkan kembali layanan:</strong>
+            <ul>
+                <li>Lakukan pembayaran tagihan bulanan Anda</li>
+                <li>Hubungi admin/operator untuk konfirmasi pembayaran</li>
+                <li>Tunggu hingga akses internet Anda diaktifkan kembali</li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <strong>📞 Hubungi Kami:</strong>
+            <p>Silakan hubungi admin/operator RT-RW Net untuk informasi lebih lanjut mengenai pembayaran dan aktivasi layanan.</p>
+        </div>
+
+        <div class="footer">
+            <p>Terima kasih atas pengertian dan kerjasamanya.</p>
+            <p><strong>Tim RT-RW Net</strong></p>
+        </div>
+    </div>
+</body>
+</html>
+
