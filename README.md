@@ -4,7 +4,7 @@ Halaman error custom untuk sistem isolir WiFi-Net.
 
 ## 🌐 Live Demo
 
-**URL:** [https://USERNAME.github.io/REPO-NAME/isolir-error-page.html](https://USERNAME.github.io/REPO-NAME/isolir-error-page.html)
+**URL:** [https://NaonWae12.github.io/REPO-NAME/isolir-error-page.html](https://USERNAME.github.io/REPO-NAME/isolir-error-page.html)
 
 *(Ganti USERNAME dan REPO-NAME sesuai repo GitHub lu)*
 
