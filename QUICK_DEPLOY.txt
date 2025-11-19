@@ -1,0 +1,72 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║  🚀 QUICK DEPLOY - GitHub Pages untuk Isolir Error Page             ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+📋 CHECKLIST:
+
+☐ Step 1: Create GitHub Repo
+   → https://github.com/new
+   → Name: wifi-net-isolir (atau terserah)
+   → Public
+   → Create!
+
+☐ Step 2: Push Branch gh-pages
+   
+   # Di PowerShell/Terminal project:
+   cd E:\Project\RT-RW-NET\cadangan\wifi_net
+   
+   # Add remote (GANTI USERNAME!)
+   git remote add origin https://github.com/USERNAME/wifi-net-isolir.git
+   
+   # Push
+   git push -u origin gh-pages
+
+☐ Step 3: Enable GitHub Pages
+   → Repo Settings → Pages
+   → Source: Branch gh-pages, / (root)
+   → Save
+   → Tunggu 1-2 menit
+
+☐ Step 4: Get URL
+   → URL akan muncul di Settings → Pages
+   → Example: https://USERNAME.github.io/wifi-net-isolir/isolir-error-page.html
+
+☐ Step 5: Update .env
+   
+   # Edit backend/.env
+   ISOLIR_ERROR_PAGE_URL=https://USERNAME.github.io/wifi-net-isolir/isolir-error-page.html
+
+☐ Step 6: Restart Backend
+   
+   cd backend
+   Ctrl+C (stop)
+   npm run dev (start)
+
+☐ Step 7: Setup Isolir
+   → Dashboard → Mikrotik Control
+   → Tab Isolir → "Setup Isolir Rule"
+
+☐ Step 8: Test!
+   → Isolir IP test
+   → Buka browser → Google.com
+   → Error page muncul! 🎉
+
+═══════════════════════════════════════════════════════════════════════
+
+📝 FILES READY:
+✅ isolir-error-page.html - Error page utama
+✅ index.html - Landing page
+✅ README.md - Documentation
+✅ DEPLOY_GITHUB_PAGES.md - Full instructions
+
+🔗 USEFUL LINKS:
+- Create Repo: https://github.com/new
+- GitHub Pages Docs: https://pages.github.com/
+
+💡 TIPS:
+- URL GitHub Pages: USERNAME.github.io/REPO-NAME/isolir-error-page.html
+- Update error page: Edit → Commit → Push → Auto-update!
+- Free, Fast, HTTPS, CDN global!
+
+═══════════════════════════════════════════════════════════════════════
+
